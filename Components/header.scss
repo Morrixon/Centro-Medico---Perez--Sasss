@@ -1,0 +1,9 @@
+@import"../Base/map";
+
+
+nav {
+    background-color: map-get($header,bg-nav );
+    color:map-get($header, color-nav );
+    list-style: map-get($header,li );
+}
+

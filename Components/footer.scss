@@ -1,0 +1,6 @@
+@import"../Base/map";
+
+footer {
+    background-color: map-get($footer,bg-footer );
+    color:map-get($footer, color );
+}
